@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception {
         Scanner reader = new Scanner(System.in);
         // write here code to ensure that BoundedCounter works as expected
         // before starting 78.3 remove the extra code and use the skeleton shown
@@ -36,8 +36,8 @@ public class Main {
         System.out.println("Value: " +hours+":"+minutes+":" +seconds);
       
         int i = 0;
-        while ( i<11040) {
-            
+        while (true) {
+            Thread.sleep(1000);
            i++;
             seconds.next();
             
