@@ -1,5 +1,5 @@
 # Clock-using-Java
-Clock counter using Java
+Clock counter using Java demonstrating the use of classes and object oriented programming methods
 
 Click the picture below to play the video to see a demonstration of a functioning clock counter.
 <a href="https://www.youtube.com/watch?v=iGHZjYMeToc
